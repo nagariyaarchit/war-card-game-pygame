@@ -276,13 +276,13 @@ class PlayButton(GameObject):
 
                 if len(player1Deck) < 4:
                         g.nextRoom()
-                        Conclusion = TextRectangle("Player 2 has won the game (Player 1 couldn't continue war)", 100, 300, gameFont, RED)
+                        Conclusion = TextRectangle("Player 2 has won the game(Player 1 couldn't continue war)", 10, 300, gameFont, RED)
                         r2.addObject(Conclusion)
                         return
 
                 if len(player2Deck) < 4:
                         g.nextRoom()
-                        Conclusion = TextRectangle("Player 1 has won the game (Player 2 couldn't continue war)", 100, 300, gameFont, RED)
+                        Conclusion = TextRectangle("Player 1 has won the game(Player 2 couldn't continue war)", 10, 300, gameFont, RED)
                         r2.addObject(Conclusion)
                         return
 
